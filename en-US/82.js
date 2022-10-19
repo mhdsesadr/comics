@@ -258,7 +258,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_7455210231886347358$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_1 = goog.getMsg("login to your Account");
         i18n_0 = MSG_EXTERNAL_7455210231886347358$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_1;
       } else {
-        i18n_0 = "\u0648\u0627\u0631\u062F \u062D\u0633\u0627\u0628 \u06A9\u0627\u0631\u0628\u0631\u06CC \u062E\u0648\u062F \u0634\u0648\u06CC\u062F";
+        i18n_0 = "login to your Account";
       }
 
       let i18n_2;
@@ -270,7 +270,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_4768749765465246664$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_3 = goog.getMsg("Email");
         i18n_2 = MSG_EXTERNAL_4768749765465246664$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_3;
       } else {
-        i18n_2 = "\u0627\u06CC\u0645\u06CC\u0644";
+        i18n_2 = "Email";
       }
 
       let i18n_4;
@@ -282,7 +282,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_2347440436100797354$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_5 = goog.getMsg("Ex. pat@example.com");
         i18n_4 = MSG_EXTERNAL_2347440436100797354$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_5;
       } else {
-        i18n_4 = "\u0645\u062B\u0627\u0644: pat@example.com";
+        i18n_4 = "Ex. pat@example.com";
       }
 
       let i18n_6;
@@ -294,7 +294,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_1431416938026210429$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_7 = goog.getMsg("Password");
         i18n_6 = MSG_EXTERNAL_1431416938026210429$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_7;
       } else {
-        i18n_6 = "\u0631\u0645\u0632\u0639\u0628\u0648\u0631";
+        i18n_6 = "Password";
       }
 
       let i18n_8;
@@ -306,7 +306,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_1431416938026210429$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_9 = goog.getMsg("Password");
         i18n_8 = MSG_EXTERNAL_1431416938026210429$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_9;
       } else {
-        i18n_8 = "\u0631\u0645\u0632\u0639\u0628\u0648\u0631";
+        i18n_8 = "Password";
       }
 
       let i18n_10;
@@ -318,7 +318,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_11 = goog.getMsg("Login ");
         i18n_10 = MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_11;
       } else {
-        i18n_10 = "\u0648\u0627\u0631\u062F \u0634\u062F\u0646 ";
+        i18n_10 = "Login ";
       }
 
       let i18n_12;
@@ -330,7 +330,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_2758137757089815882$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__13 = goog.getMsg(" Please enter a valid email address ");
         i18n_12 = MSG_EXTERNAL_2758137757089815882$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__13;
       } else {
-        i18n_12 = " \u0644\u0637\u0641\u0627 \u06CC\u06A9 \u0622\u062F\u0631\u0633 \u0627\u06CC\u0645\u06CC\u0644 \u0645\u0639\u062A\u0628\u0631 \u0648\u0627\u0631\u062F \u06A9\u0646\u06CC\u062F ";
+        i18n_12 = " Please enter a valid email address ";
       }
 
       let i18n_14;
@@ -350,7 +350,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         });
         i18n_14 = MSG_EXTERNAL_3651520221086968086$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__15;
       } else {
-        i18n_14 = " \u0627\u06CC\u0645\u06CC\u0644 " + "\uFFFD#2\uFFFD" + "\u0627\u062C\u0628\u0627\u0631\u06CC \u0627\u0633\u062A" + "\uFFFD/#2\uFFFD" + "";
+        i18n_14 = " Email is " + "\uFFFD#2\uFFFD" + "required" + "\uFFFD/#2\uFFFD" + "";
       }
 
       let i18n_16;
@@ -370,7 +370,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         });
         i18n_16 = MSG_EXTERNAL_527537244924329340$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__17;
       } else {
-        i18n_16 = " \u0631\u0645\u0632\u0639\u0628\u0648\u0631 " + "\uFFFD#2\uFFFD" + "\u0627\u062C\u0628\u0627\u0631\u06CC \u0627\u0633\u062A" + "\uFFFD/#2\uFFFD" + "";
+        i18n_16 = " Password is " + "\uFFFD#2\uFFFD" + "required" + "\uFFFD/#2\uFFFD" + "";
       }
 
       return [[1, "container", "flex", "justify-center", "items-center", "h-full", "!max-w-none", 3, "ngClass"], [1, "docs-app-background", "!w-screen", "h-full", "flex", "justify-center", "items-center"], [1, "px-5", "pb-52"], [1, "text-stone-700"], i18n_0, [1, "example-form", "pt-2", 3, "ngSubmit"], ["appearance", "fill", 1, "example-full-width", "pb-5"], i18n_2, ["type", "email", "matInput", "", "placeholder", i18n_4, 3, "formControl"], [4, "ngIf"], ["appearance", "fill", 1, "example-full-width"], i18n_6, ["type", "password", "matInput", "", "placeholder", i18n_8, 3, "formControl"], ["mat-raised-button", "", "color", "primary", "type", "submit", 3, "disabled"], i18n_10, [3, "changed"], i18n_12, i18n_14, i18n_16];
