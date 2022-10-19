@@ -9,6 +9,7 @@ export const comicsAction = createActionGroup({
     'Save Favorite Comic': props<{ comic: ComicModel }>(),
     'Save Favorite Comic Success': props<{ comic: ComicModel }>(),
     'Delete Favorite Comic': props<{ comicID: number }>(),
-    'Delete Favorite Comic Success': props<{ comicID: number }>()
+    'Delete Favorite Comic Success': props<{ comicID: number }>(),
+    'Delete All Favorite Comics': emptyProps()
   }
 })

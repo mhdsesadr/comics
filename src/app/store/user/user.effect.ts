@@ -6,6 +6,7 @@ import {catchError, map, tap} from 'rxjs/operators';
 import {UserService} from "../../services/user/user.service";
 import {Router} from "@angular/router";
 import {LocalStorageService} from "../../services/local-storage/local-storage.service";
+import {comicsAction} from "../comics/comics.action";
 
 
 @Injectable()
@@ -43,7 +44,7 @@ export class UserEffects {
       ofType(userActions.loginSuccess),
       tap((action) => {
         this.localStorageService.saveUser(action.user).subscribe({
-          complete: () => this.router.navigate(['/comics'])
+          complete: () => this.router.navigate(['/comics/list'])
         })
       })
     ), {dispatch: false}
@@ -53,7 +54,9 @@ export class UserEffects {
     this.actions$.pipe(
       ofType(userActions.logout),
       tap(() => this.localStorageService.deleteUser().subscribe({
-        complete: () => this.router.navigate(['/auth/login'])
+        complete: () => this.localStorageService.deleteAllFavoriteComics().subscribe({
+          complete: () => this.router.navigate(['/auth/login'])
+        })
       })),
     ), {dispatch: false}
   )

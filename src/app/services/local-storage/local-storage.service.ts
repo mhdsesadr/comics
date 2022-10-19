@@ -57,12 +57,6 @@ export class LocalStorageService {
     })
   }
 
-  isComicFavorite(comicID: number): Observable<boolean> {
-    return this.getFavoriteComics().pipe(
-      map(comics => comics.some(c => c.id === comicID))
-    )
-  }
-
   saveFavoriteComic(comic: ComicModel): Observable<void> {
     return this.getFavoriteComics().pipe(
       map(comics => {
@@ -83,5 +77,13 @@ export class LocalStorageService {
         localStorage.setItem(this.FAVORITES_KEY, JSON.stringify(newFavorites));
       })
     )
+  }
+
+  deleteAllFavoriteComics(): Observable<void> {
+    return new Observable<void>(observer => {
+      localStorage.removeItem(this.FAVORITES_KEY);
+
+      observer.complete();
+    })
   }
 }

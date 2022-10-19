@@ -1,19 +1,11 @@
 <div class="px-1 py-6">
   <section class="example-section" *ngIf="theme === 'light'">
-    <!--    <button class="!mb-1.5 !ml-1.5 !mx-0 !shadow-none"-->
-    <!--            (click)="changeTheme('dark')"-->
-    <!--            mat-raised-button color="primary">Dark-->
-    <!--    </button>-->
-    <mat-icon class="!mb-1.5 !mr-6 !mx-0  cursor-pointer" (click)="changeTheme('dark')">brightness_low
+    <mat-icon class="!mb-1.5 !mr-6 !mx-0  cursor-pointer" (click)="changeTheme('dark')"> dark_mode
     </mat-icon>
   </section>
   <section class="example-section" *ngIf="theme === 'dark'">
-    <!--    <button class="!mb-1.5 !ml-1.5 !mx-0 !shadow-none"-->
-    <!--            (click)="changeTheme('light')"-->
-    <!--            mat-raised-button color="primary">Light-->
-    <!--    </button>-->
     <mat-icon class="!mb-1.5 !mr-6 !mx-0  cursor-pointer" (click)="changeTheme('light')">
-      brightness_medium
+      light_mode
     </mat-icon>
   </section>
 </div>

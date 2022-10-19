@@ -6,7 +6,7 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'comics'
+    redirectTo: 'comics/list'
   },
   {
     path: 'auth',

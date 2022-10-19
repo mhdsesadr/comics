@@ -39,7 +39,7 @@ export class ComicsEffect {
       ofType(comicsAction.deleteFavoriteComic),
       mergeMap((action) =>
         this.localStorageService.deleteFavoriteComic(action.comicID).pipe(
-          map(() => comicsAction.deleteFavoriteComicSuccess({comicID : action.comicID}))
+          map(() => comicsAction.deleteFavoriteComicSuccess({comicID: action.comicID}))
         )
       )
     )

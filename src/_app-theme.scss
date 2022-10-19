@@ -13,11 +13,11 @@
   $foreground: map.get($theme, foreground);
   $next-theme: mat.define-palette(mat.$red-palette);
 
-  .docs-app-background {
+  .comics-app-background {
     background: mat.get-color-from-palette($background, background);
   }
 
-  .docs-primary-header {
+  .comics-primary-header {
     background: mat.get-color-from-palette($primary);
 
     h1 {
@@ -25,22 +25,6 @@
     }
   }
 
-  .docs-footer {
-    background: mat.get-color-from-palette($primary);
-    color: mat.get-color-from-palette($primary, default-contrast);
-  }
-
-  .docs-help-support {
-    color: mat.get-color-from-palette($foreground, secondary-text);
-
-    a {
-      color: mat.get-color-from-palette($foreground, text);
-    }
-  }
-
-  .is-next-version {
-    background: mat.get-color-from-palette($next-theme, 900) !important;
-  }
 
   @include component-navbar-theme.theme($theme);
 }
