@@ -1,0 +1,8 @@
+:host-context([dir="ltr"]) .navbar-content-container {
+  @apply md:pl-60 md:pr-4;
+}
+
+
+:host-context([dir="rtl"]) .navbar-content-container {
+    @apply md:pr-60 md:pl-4;
+}

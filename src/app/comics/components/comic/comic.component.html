@@ -1,0 +1,23 @@
+<mat-card class="!p-3 !flex flex-wrap w-full h-[450px] md:h-[580px]">
+  <img class="!m-0 !rounded-none  object-contain" mat-card-image
+       [src]="comic.thumbnail.path+'.'+comic.thumbnail.extension"
+       alt="Photo of a Shiba Inu">
+  <mat-card-content class="w-full">
+    <p class="flex justify-center" i18n>
+      {{comic.title}}
+    </p>
+    <hr>
+    <p class="flex justify-center p-4">
+      {{limitedDescription}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions class="!mx-0 !mb-0 !pb-0 !self-end">
+    <mat-icon  *ngIf="!isFavorite" (click)="onFavorite(true)" class="!mb-1.5 !ml-1.5 !mx-0 cursor-pointer">favorite_border
+    </mat-icon>
+    <mat-icon  *ngIf="isFavorite" (click)="onFavorite(false)" class="!mb-1.5 !ml-1.5 !mx-0 cursor-pointer">
+      favorite
+    </mat-icon>
+  </mat-card-actions>
+</mat-card>
+
+

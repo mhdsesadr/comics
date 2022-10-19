@@ -1,0 +1,33 @@
+<div class="container flex justify-center items-center h-full !max-w-none " [ngClass]="themeClass">
+  <div class="docs-app-background !w-screen h-full flex justify-center items-center">
+    <div class="px-5 pb-52">
+      <span class="text-stone-700" i18n>login to your Account</span>
+      <form class="example-form pt-2" (ngSubmit)="onSubmit()">
+        <mat-form-field class="example-full-width pb-5" appearance="fill">
+          <mat-label i18n>Email</mat-label>
+          <input i18n-placeholder type="email" matInput [formControl]="emailFormControl"
+                 placeholder="Ex. pat@example.com">
+          <mat-hint>Errors appear instantly!</mat-hint>
+          <mat-error i18n *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+            Please enter a valid email address
+          </mat-error>
+          <mat-error i18n *ngIf="emailFormControl.hasError('required')">
+            Email is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput i18n-placeholder placeholder="Password" [formControl]="passwordFormControl">
+          <mat-error i18n *ngIf="passwordFormControl.hasError('required')">
+            Password is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+        <button i18n mat-raised-button color="primary" type="submit" [disabled]="loginForm.invalid">Login
+        </button>
+        <app-theme-switcher (changed)="changeTheme($event)"></app-theme-switcher>
+
+      </form>
+    </div>
+  </div>
+</div>
+

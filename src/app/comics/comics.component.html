@@ -1,0 +1,5 @@
+<div [ngClass]="themeClass">
+  <app-navbar (themeChanged)="changeTheme($event)">
+    <router-outlet></router-outlet>
+  </app-navbar>
+</div>

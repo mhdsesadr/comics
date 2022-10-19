@@ -1,0 +1,73 @@
+<mat-sidenav-container class="flex-1 box-border">
+  <!-- If on small screen, menu resides in drawer -->
+  <mat-sidenav #sidenav class="overflow-auto"
+               *ngIf="(isScreenSmall | async)"
+               [opened]="(isScreenSmall | async) === false"
+               [mode]="(isScreenSmall | async) ? 'over' : 'side'"
+               [fixedInViewport]="(isScreenSmall | async)"
+               [fixedTopGap]="(isExtraScreenSmall | async) ? 80 : 56"
+  >
+    <div class="sticky top-0 md:!h-screen">
+      <div class="docs-component-viewer-nav w-52 overflow-auto">
+        <div class="docs-component-viewer-nav-content ">
+          <app-profile-preview></app-profile-preview>
+          <mat-nav-list class="!flex flex-col justify-between h-4/5">
+            <div>
+              <a mat-list-item routerLinkActive="docs-component-viewer-sidenav-item-selected" i18n
+                 [routerLink]="'/comics/list'">
+                Comics
+              </a>
+              <a mat-list-item routerLinkActive="docs-component-viewer-sidenav-item-selected" i18n
+                 [routerLink]="'/comics/favorites'">
+                Favorites
+              </a>
+            </div>
+            <div (click)="onLogout()">
+              <a i18n mat-list-item routerLinkActive="docs-component-viewer-sidenav-item-selected">Logout</a>
+            </div>
+          </mat-nav-list>
+        </div>
+      </div>
+    </div>
+  </mat-sidenav>
+  <div class="flex flex-col min-h-full ">
+    <header class="docs-primary-header flex  content-center p-0 md:p-4 justify-between h-20 fixed w-screen z-20">
+      <button mat-button class="p-0 mx-2 my-2 w-16 flex md:!hidden" (click)="sidenav.toggle()">
+        <mat-icon class=" h-16 w-16 text-white" i18n>menu</mat-icon>
+      </button>
+      <h1 i18n class="px-1 py-6 text-xl outline-0">Marvel Comics</h1>
+      <app-theme-switcher (changed)="changeTheme($event)"></app-theme-switcher>
+    </header>
+    <div class="flex flex-row">
+      <main class="flex flex-1 ">
+        <div class="docs-component-viewer-nav fixed top-20">
+          <div class="docs-component-viewer-nav-content h-[calc(100vh_-_5rem)]"
+               *ngIf="(isScreenSmall | async) === false">
+            <app-profile-preview [user$]="user$"></app-profile-preview>
+            <mat-nav-list class="w-56 !flex flex-col justify-between h-3/4">
+              <div>
+                <a mat-list-item routerLinkActive="docs-component-viewer-sidenav-item-selected" i18n
+                   [routerLink]="'/comics/list'">
+                  Comics
+                </a>
+                <a mat-list-item routerLinkActive="docs-component-viewer-sidenav-item-selected" i18n
+                   [routerLink]="'/comics/favorites'">
+                  Favorites
+                </a>
+              </div>
+              <div (click)="onLogout()">
+                <a i18n mat-list-item routerLinkActive="docs-component-viewer-sidenav-item-selected">Logout</a>
+              </div>
+            </mat-nav-list>
+          </div>
+        </div>
+        <div class="pt-24 pb-4 px-2 navbar-content-container h-screen">
+          <ng-content ></ng-content>
+        </div>
+      </main>
+    </div>
+  </div>
+</mat-sidenav-container>
+
+
+
