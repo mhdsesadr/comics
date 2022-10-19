@@ -182,7 +182,7 @@ __webpack_require__.r(__webpack_exports__);
 function LoginComponent_mat_error_12_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "mat-error");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18n"](1, 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18n"](1, 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
 }
@@ -190,7 +190,7 @@ function LoginComponent_mat_error_12_Template(rf, ctx) {
 function LoginComponent_mat_error_13_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "mat-error");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18nStart"](1, 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18nStart"](1, 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](2, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18nEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -200,7 +200,7 @@ function LoginComponent_mat_error_13_Template(rf, ctx) {
 function LoginComponent_mat_error_18_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "mat-error");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18nStart"](1, 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18nStart"](1, 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](2, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18nEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
@@ -303,10 +303,10 @@ let LoginComponent = /*#__PURE__*/(() => {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_9 = goog.getMsg("Login ");
-        i18n_8 = MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_9;
+        const MSG_EXTERNAL_1431416938026210429$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_9 = goog.getMsg("Password");
+        i18n_8 = MSG_EXTERNAL_1431416938026210429$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_9;
       } else {
-        i18n_8 = "\u0648\u0627\u0631\u062F \u0634\u062F\u0646 ";
+        i18n_8 = "\u0631\u0645\u0632\u0639\u0628\u0648\u0631";
       }
 
       let i18n_10;
@@ -315,10 +315,10 @@ let LoginComponent = /*#__PURE__*/(() => {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG_EXTERNAL_2758137757089815882$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__11 = goog.getMsg(" Please enter a valid email address ");
-        i18n_10 = MSG_EXTERNAL_2758137757089815882$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__11;
+        const MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_11 = goog.getMsg("Login ");
+        i18n_10 = MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_11;
       } else {
-        i18n_10 = " \u0644\u0637\u0641\u0627 \u06CC\u06A9 \u0622\u062F\u0631\u0633 \u0627\u06CC\u0645\u06CC\u0644 \u0645\u0639\u062A\u0628\u0631 \u0648\u0627\u0631\u062F \u06A9\u0646\u06CC\u062F ";
+        i18n_10 = "\u0648\u0627\u0631\u062F \u0634\u062F\u0646 ";
       }
 
       let i18n_12;
@@ -327,18 +327,10 @@ let LoginComponent = /*#__PURE__*/(() => {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG_EXTERNAL_3651520221086968086$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__13 = goog.getMsg(" Email is {$startTagStrong}required{$closeTagStrong}", {
-          "startTagStrong": "\uFFFD#2\uFFFD",
-          "closeTagStrong": "\uFFFD/#2\uFFFD"
-        }, {
-          original_code: {
-            "startTagStrong": "<strong>",
-            "closeTagStrong": "</strong>"
-          }
-        });
-        i18n_12 = MSG_EXTERNAL_3651520221086968086$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__13;
+        const MSG_EXTERNAL_2758137757089815882$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__13 = goog.getMsg(" Please enter a valid email address ");
+        i18n_12 = MSG_EXTERNAL_2758137757089815882$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__13;
       } else {
-        i18n_12 = " \u0627\u06CC\u0645\u06CC\u0644 " + "\uFFFD#2\uFFFD" + "\u0627\u062C\u0628\u0627\u0631\u06CC \u0627\u0633\u062A" + "\uFFFD/#2\uFFFD" + "";
+        i18n_12 = " \u0644\u0637\u0641\u0627 \u06CC\u06A9 \u0622\u062F\u0631\u0633 \u0627\u06CC\u0645\u06CC\u0644 \u0645\u0639\u062A\u0628\u0631 \u0648\u0627\u0631\u062F \u06A9\u0646\u06CC\u062F ";
       }
 
       let i18n_14;
@@ -347,7 +339,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         /**
          * @suppress {msgDescriptions}
          */
-        const MSG_EXTERNAL_527537244924329340$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__15 = goog.getMsg(" Password is {$startTagStrong}required{$closeTagStrong}", {
+        const MSG_EXTERNAL_3651520221086968086$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__15 = goog.getMsg(" Email is {$startTagStrong}required{$closeTagStrong}", {
           "startTagStrong": "\uFFFD#2\uFFFD",
           "closeTagStrong": "\uFFFD/#2\uFFFD"
         }, {
@@ -356,12 +348,32 @@ let LoginComponent = /*#__PURE__*/(() => {
             "closeTagStrong": "</strong>"
           }
         });
-        i18n_14 = MSG_EXTERNAL_527537244924329340$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__15;
+        i18n_14 = MSG_EXTERNAL_3651520221086968086$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__15;
       } else {
-        i18n_14 = " \u0631\u0645\u0632\u0639\u0628\u0648\u0631 " + "\uFFFD#2\uFFFD" + "\u0627\u062C\u0628\u0627\u0631\u06CC \u0627\u0633\u062A" + "\uFFFD/#2\uFFFD" + "";
+        i18n_14 = " \u0627\u06CC\u0645\u06CC\u0644 " + "\uFFFD#2\uFFFD" + "\u0627\u062C\u0628\u0627\u0631\u06CC \u0627\u0633\u062A" + "\uFFFD/#2\uFFFD" + "";
       }
 
-      return [[1, "container", "flex", "justify-center", "items-center", "h-full", "!max-w-none", 3, "ngClass"], [1, "docs-app-background", "!w-screen", "h-full", "flex", "justify-center", "items-center"], [1, "px-5", "pb-52"], [1, "text-stone-700"], i18n_0, [1, "example-form", "pt-2", 3, "ngSubmit"], ["appearance", "fill", 1, "example-full-width", "pb-5"], i18n_2, ["type", "email", "matInput", "", "placeholder", i18n_4, 3, "formControl"], [4, "ngIf"], ["appearance", "fill", 1, "example-full-width"], ["type", "password", "matInput", "", "placeholder", i18n_6, 3, "formControl"], ["mat-raised-button", "", "color", "primary", "type", "submit", 3, "disabled"], i18n_8, [3, "changed"], i18n_10, i18n_12, i18n_14];
+      let i18n_16;
+
+      if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        /**
+         * @suppress {msgDescriptions}
+         */
+        const MSG_EXTERNAL_527537244924329340$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__17 = goog.getMsg(" Password is {$startTagStrong}required{$closeTagStrong}", {
+          "startTagStrong": "\uFFFD#2\uFFFD",
+          "closeTagStrong": "\uFFFD/#2\uFFFD"
+        }, {
+          original_code: {
+            "startTagStrong": "<strong>",
+            "closeTagStrong": "</strong>"
+          }
+        });
+        i18n_16 = MSG_EXTERNAL_527537244924329340$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS__17;
+      } else {
+        i18n_16 = " \u0631\u0645\u0632\u0639\u0628\u0648\u0631 " + "\uFFFD#2\uFFFD" + "\u0627\u062C\u0628\u0627\u0631\u06CC \u0627\u0633\u062A" + "\uFFFD/#2\uFFFD" + "";
+      }
+
+      return [[1, "container", "flex", "justify-center", "items-center", "h-full", "!max-w-none", 3, "ngClass"], [1, "docs-app-background", "!w-screen", "h-full", "flex", "justify-center", "items-center"], [1, "px-5", "pb-52"], [1, "text-stone-700"], i18n_0, [1, "example-form", "pt-2", 3, "ngSubmit"], ["appearance", "fill", 1, "example-full-width", "pb-5"], i18n_2, ["type", "email", "matInput", "", "placeholder", i18n_4, 3, "formControl"], [4, "ngIf"], ["appearance", "fill", 1, "example-full-width"], i18n_6, ["type", "password", "matInput", "", "placeholder", i18n_8, 3, "formControl"], ["mat-raised-button", "", "color", "primary", "type", "submit", 3, "disabled"], i18n_10, [3, "changed"], i18n_12, i18n_14, i18n_16];
     },
     template: function LoginComponent_Template(rf, ctx) {
       if (rf & 1) {
@@ -383,15 +395,15 @@ let LoginComponent = /*#__PURE__*/(() => {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](13, LoginComponent_mat_error_13_Template, 3, 0, "mat-error", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "mat-form-field", 10)(15, "mat-label");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](16, "Password");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18n"](16, 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "input", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](17, "input", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](18, LoginComponent_mat_error_18_Template, 3, 0, "mat-error", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "button", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18n"](20, 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](19, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵi18n"](20, 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "app-theme-switcher", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "app-theme-switcher", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("changed", function LoginComponent_Template_app_theme_switcher_changed_21_listener($event) {
           return ctx.changeTheme($event);
         });
