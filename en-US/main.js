@@ -1,5 +1,5 @@
-var $localize=Object.assign(void 0===$localize?{}:$localize,{locale:"fa"});
-"use strict";(function(global){global.ng=global.ng||{};global.ng.common=global.ng.common||{};global.ng.common.locales=global.ng.common.locales||{};const u=undefined;function plural(val){const n=val,i=Math.floor(Math.abs(val));if(i===0||n===1)return 1;return 5}global.ng.common.locales["fa"]=["fa",[["\u0642","\u0628"],["\u0642.\u0638.","\u0628.\u0638."],["\u0642\u0628\u0644\u200C\u0627\u0632\u0638\u0647\u0631","\u0628\u0639\u062F\u0627\u0632\u0638\u0647\u0631"]],u,[["\u06CC","\u062F","\u0633","\u0686","\u067E","\u062C","\u0634"],["\u06CC\u06A9\u0634\u0646\u0628\u0647","\u062F\u0648\u0634\u0646\u0628\u0647","\u0633\u0647\u200C\u0634\u0646\u0628\u0647","\u0686\u0647\u0627\u0631\u0634\u0646\u0628\u0647","\u067E\u0646\u062C\u0634\u0646\u0628\u0647","\u062C\u0645\u0639\u0647","\u0634\u0646\u0628\u0647"],u,["\u06F1\u0634","\u06F2\u0634","\u06F3\u0634","\u06F4\u0634","\u06F5\u0634","\u062C","\u0634"]],u,[["\u0698","\u0641","\u0645","\u0622","\u0645","\u0698","\u0698","\u0627","\u0633","\u0627","\u0646","\u062F"],["\u0698\u0627\u0646\u0648\u06CC\u0647","\u0641\u0648\u0631\u06CC\u0647","\u0645\u0627\u0631\u0633","\u0622\u0648\u0631\u06CC\u0644","\u0645\u0647","\u0698\u0648\u0626\u0646","\u0698\u0648\u0626\u06CC\u0647","\u0627\u0648\u062A","\u0633\u067E\u062A\u0627\u0645\u0628\u0631","\u0627\u06A9\u062A\u0628\u0631","\u0646\u0648\u0627\u0645\u0628\u0631","\u062F\u0633\u0627\u0645\u0628\u0631"],["\u0698\u0627\u0646\u0648\u06CC\u0647\u0654","\u0641\u0648\u0631\u06CC\u0647\u0654","\u0645\u0627\u0631\u0633","\u0622\u0648\u0631\u06CC\u0644","\u0645\u0647\u0654","\u0698\u0648\u0626\u0646","\u0698\u0648\u0626\u06CC\u0647\u0654","\u0627\u0648\u062A","\u0633\u067E\u062A\u0627\u0645\u0628\u0631","\u0627\u06A9\u062A\u0628\u0631","\u0646\u0648\u0627\u0645\u0628\u0631","\u062F\u0633\u0627\u0645\u0628\u0631"]],[["\u0698","\u0641","\u0645","\u0622","\u0645","\u0698","\u0698","\u0627","\u0633","\u0627","\u0646","\u062F"],["\u0698\u0627\u0646\u0648\u06CC\u0647","\u0641\u0648\u0631\u06CC\u0647","\u0645\u0627\u0631\u0633","\u0622\u0648\u0631\u06CC\u0644","\u0645\u0647","\u0698\u0648\u0626\u0646","\u0698\u0648\u0626\u06CC\u0647","\u0627\u0648\u062A","\u0633\u067E\u062A\u0627\u0645\u0628\u0631","\u0627\u06A9\u062A\u0628\u0631","\u0646\u0648\u0627\u0645\u0628\u0631","\u062F\u0633\u0627\u0645\u0628\u0631"],u],[["\u0642","\u0645"],["\u0642.\u0645.","\u0645."],["\u0642\u0628\u0644 \u0627\u0632 \u0645\u06CC\u0644\u0627\u062F","\u0645\u06CC\u0644\u0627\u062F\u06CC"]],6,[5,5],["y/M/d","d MMM y","d MMMM y","EEEE d MMMM y"],["H:mm","H:mm:ss","H:mm:ss (z)","H:mm:ss (zzzz)"],["{1}\u060C\u200F {0}",u,"{1}\u060C \u0633\u0627\u0639\u062A {0}",u],[".",",",";","%","\u200E+","\u200E\u2212","E","\xD7","\u2030","\u221E","\u0646\u0627\u0639\u062F\u062F",":"],["#,##0.###","#,##0%","\u200E\xA4\xA0#,##0.00","#E0"],"IRR","\u0631\u06CC\u0627\u0644","\u0631\u06CC\u0627\u0644 \u0627\u06CC\u0631\u0627\u0646",{"AFN":["\u060B"],"BYN":[u,"\u0440."],"CAD":["$CA","$"],"CNY":["\xA5CN","\xA5"],"HKD":["$HK","$"],"IRR":["\u0631\u06CC\u0627\u0644"],"MXN":["$MX","$"],"NZD":["$NZ","$"],"PHP":[u,"\u20B1"],"THB":["\u0E3F"],"XCD":["$EC","$"],"XOF":["\u0641\u0631\u0627\u0646\u06A9\u202FCFA"]},"rtl",plural,[[["\u0628","\u0635","\u0638","\u0639","\u0634","\u0646"],["\u0628\u0627\u0645\u062F\u0627\u062F","\u0635\u0628\u062D","\u0638\u0647\u0631","\u0639\u0635\u0631","\u0634\u0628","\u0646\u06CC\u0645\u0647\u200C\u0634\u0628"],["\u0628\u0627\u0645\u062F\u0627\u062F","\u0635\u0628\u062D","\u0628\u0639\u062F\u0627\u0632\u0638\u0647\u0631","\u0639\u0635\u0631","\u0634\u0628","\u0646\u06CC\u0645\u0647\u200C\u0634\u0628"]],[["\u0628","\u0635","\u0638","\u0639","\u0634","\u0646"],["\u0628\u0627\u0645\u062F\u0627\u062F","\u0635\u0628\u062D","\u0638\u0647\u0631","\u0639\u0635\u0631","\u0634\u0628","\u0646\u06CC\u0645\u0647\u200C\u0634\u0628"],u],[["01:00","04:00"],["04:00","12:00"],["12:00","13:00"],["13:00","19:00"],["19:00","24:00"],["00:00","01:00"]]]]})(typeof globalThis!=="undefined"&&globalThis||typeof global!=="undefined"&&global||typeof window!=="undefined"&&window);;
+var $localize=Object.assign(void 0===$localize?{}:$localize,{locale:"en-US"});
+"use strict";(function(global){global.ng=global.ng||{};global.ng.common=global.ng.common||{};global.ng.common.locales=global.ng.common.locales||{};const u=undefined;function plural(val){const n=val,i=Math.floor(Math.abs(val)),v=val.toString().replace(/^[^.]*\.?/,"").length;if(i===1&&v===0)return 1;return 5}global.ng.common.locales["en"]=["en",[["a","p"],["AM","PM"],u],[["AM","PM"],u,u],[["S","M","T","W","T","F","S"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Su","Mo","Tu","We","Th","Fr","Sa"]],u,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],["January","February","March","April","May","June","July","August","September","October","November","December"]],u,[["B","A"],["BC","AD"],["Before Christ","Anno Domini"]],0,[6,0],["M/d/yy","MMM d, y","MMMM d, y","EEEE, MMMM d, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",u,"{1} 'at' {0}",u],[".",",",";","%","+","-","E","\xD7","\u2030","\u221E","NaN",":"],["#,##0.###","#,##0%","\xA4#,##0.00","#E0"],"USD","$","US Dollar",{},"ltr",plural,[[["mi","n","in the morning","in the afternoon","in the evening","at night"],["midnight","noon","in the morning","in the afternoon","in the evening","at night"],u],[["midnight","noon","morning","afternoon","evening","night"],u,u],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]})(typeof globalThis!=="undefined"&&globalThis||typeof global!=="undefined"&&global||typeof window!=="undefined"&&window);;
 "use strict";
 (self["webpackChunkcomics"] = self["webpackChunkcomics"] || []).push([[179],{
 
@@ -799,7 +799,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_278590554940342755$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS_1 = goog.getMsg("menu");
         i18n_0 = MSG_EXTERNAL_278590554940342755$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS_1;
       } else {
-        i18n_0 = "\u0645\u0646\u0648";
+        i18n_0 = "menu";
       }
 
       let i18n_2;
@@ -811,7 +811,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_4795973663669951359$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS_3 = goog.getMsg("Marvel Comics");
         i18n_2 = MSG_EXTERNAL_4795973663669951359$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS_3;
       } else {
-        i18n_2 = " \u06A9\u0627\u0645\u06CC\u06A9 \u0647\u0627\u06CC \u0645\u0627\u0631\u0627\u0648\u0644";
+        i18n_2 = "Marvel Comics";
       }
 
       let i18n_4;
@@ -823,7 +823,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_5083422145068484500$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__5 = goog.getMsg(" Comics ");
         i18n_4 = MSG_EXTERNAL_5083422145068484500$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__5;
       } else {
-        i18n_4 = " \u06A9\u0627\u0645\u06CC\u06A9 \u0647\u0627 ";
+        i18n_4 = " Comics ";
       }
 
       let i18n_6;
@@ -835,7 +835,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_7627038188485177086$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__7 = goog.getMsg(" Favorites ");
         i18n_6 = MSG_EXTERNAL_7627038188485177086$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__7;
       } else {
-        i18n_6 = " \u0645\u0648\u0627\u0631\u062F \u062F\u0644\u062E\u0648\u0627\u0647 ";
+        i18n_6 = " Favorites ";
       }
 
       let i18n_8;
@@ -847,7 +847,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_3797778920049399855$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__9 = goog.getMsg("Logout");
         i18n_8 = MSG_EXTERNAL_3797778920049399855$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__9;
       } else {
-        i18n_8 = "\u062E\u0631\u0648\u062C";
+        i18n_8 = "Logout";
       }
 
       let i18n_10;
@@ -859,7 +859,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_5340330911217566826$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__11 = goog.getMsg(" Comics ");
         i18n_10 = MSG_EXTERNAL_5340330911217566826$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__11;
       } else {
-        i18n_10 = " \u06A9\u0627\u0645\u06CC\u06A9 \u0647\u0627 ";
+        i18n_10 = " Comics ";
       }
 
       let i18n_12;
@@ -871,7 +871,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_1634648436041785880$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__13 = goog.getMsg(" Favorites ");
         i18n_12 = MSG_EXTERNAL_1634648436041785880$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__13;
       } else {
-        i18n_12 = " \u0645\u0648\u0627\u0631\u062F \u062F\u0644\u062E\u0648\u0627\u0647 ";
+        i18n_12 = " Favorites ";
       }
 
       let i18n_14;
@@ -883,7 +883,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_3797778920049399855$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__15 = goog.getMsg("Logout");
         i18n_14 = MSG_EXTERNAL_3797778920049399855$$SRC_APP_COMICS_COMPONENTS_NAVBAR_NAVBAR_COMPONENT_TS__15;
       } else {
-        i18n_14 = "\u062E\u0631\u0648\u062C";
+        i18n_14 = "Logout";
       }
 
       return [[1, "flex-1", "box-border"], ["class", "overflow-auto", 3, "opened", "mode", "fixedInViewport", "fixedTopGap", 4, "ngIf"], [1, "flex", "flex-col", "min-h-full"], [1, "docs-primary-header", "flex", "content-center", "p-0", "md:p-4", "justify-between", "h-20", "fixed", "w-screen", "z-20"], ["mat-button", "", 1, "p-0", "mx-2", "my-2", "w-16", "flex", "md:!hidden", 3, "click"], [1, "h-16", "w-16", "text-white"], i18n_0, [1, "px-1", "py-6", "text-xl", "outline-0"], i18n_2, [3, "changed"], [1, "flex", "flex-row"], [1, "flex", "flex-1"], [1, "docs-component-viewer-nav", "fixed", "top-20"], ["class", "docs-component-viewer-nav-content h-[calc(100vh_-_5rem)]", 4, "ngIf"], [1, "pt-24", "pb-4", "px-2", "navbar-content-container", "h-screen"], [1, "overflow-auto", 3, "opened", "mode", "fixedInViewport", "fixedTopGap"], ["sidenav", ""], [1, "sticky", "top-0", "md:!h-screen"], [1, "docs-component-viewer-nav", "w-52", "overflow-auto"], [1, "docs-component-viewer-nav-content"], [1, "!flex", "flex-col", "justify-between", "h-4/5"], ["mat-list-item", "", "routerLinkActive", "docs-component-viewer-sidenav-item-selected", 3, "routerLink"], i18n_4, i18n_6, [3, "click"], ["mat-list-item", "", "routerLinkActive", "docs-component-viewer-sidenav-item-selected"], i18n_8, [1, "docs-component-viewer-nav-content", "h-[calc(100vh_-_5rem)]"], [3, "user$"], [1, "w-56", "!flex", "flex-col", "justify-between", "h-3/4"], i18n_10, i18n_12, i18n_14];
