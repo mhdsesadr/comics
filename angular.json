@@ -14,9 +14,15 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": {
+          "code": "en-US",
+          "baseHref": ""
+        },
         "locales": {
-          "fa": "src/locale/messages.fa.json"
+          "fa": {
+            "translation": "src/locale/messages.fa.json",
+            "baseHref": ""
+          },
         }
       },
       "architect": {
@@ -38,7 +44,10 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "localize": true,
+            "localize": [
+              "fa",
+              "en"
+            ],
             "aot": true
           },
           "configurations": {
