@@ -318,7 +318,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         const MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_11 = goog.getMsg("Login ");
         i18n_10 = MSG_EXTERNAL_8160585113798604849$$SRC_APP_AUTHENTICATION_PAGES_LOGIN_LOGIN_COMPONENT_TS_11;
       } else {
-        i18n_10 = "\u0648\u0627\u0631\u062F \u0634\u062F\u0646 ";
+        i18n_10 = "\u0648\u0631\u0648\u062F ";
       }
 
       let i18n_12;
@@ -373,7 +373,7 @@ let LoginComponent = /*#__PURE__*/(() => {
         i18n_16 = " \u0631\u0645\u0632\u0639\u0628\u0648\u0631 " + "\uFFFD#2\uFFFD" + "\u0627\u062C\u0628\u0627\u0631\u06CC \u0627\u0633\u062A" + "\uFFFD/#2\uFFFD" + "";
       }
 
-      return [[1, "container", "flex", "justify-center", "items-center", "h-full", "!max-w-none", 3, "ngClass"], [1, "docs-app-background", "!w-screen", "h-full", "flex", "justify-center", "items-center"], [1, "px-5", "pb-52"], [1, "text-stone-700"], i18n_0, [1, "example-form", "pt-2", 3, "ngSubmit"], ["appearance", "fill", 1, "example-full-width", "pb-5"], i18n_2, ["type", "email", "matInput", "", "placeholder", i18n_4, 3, "formControl"], [4, "ngIf"], ["appearance", "fill", 1, "example-full-width"], i18n_6, ["type", "password", "matInput", "", "placeholder", i18n_8, 3, "formControl"], ["mat-raised-button", "", "color", "primary", "type", "submit", 3, "disabled"], i18n_10, [3, "changed"], i18n_12, i18n_14, i18n_16];
+      return [[1, "container", "flex", "justify-center", "items-center", "h-full", "!max-w-none", 3, "ngClass"], [1, "comics-app-background", "!w-screen", "h-full", "flex", "justify-center", "items-center"], [1, "px-5", "pb-52"], [1, "text-stone-700"], i18n_0, [1, "example-form", "pt-2", 3, "ngSubmit"], ["appearance", "fill", 1, "example-full-width", "pb-5"], i18n_2, ["type", "email", "matInput", "", "placeholder", i18n_4, 3, "formControl"], [4, "ngIf"], ["appearance", "fill", 1, "example-full-width"], i18n_6, ["type", "password", "matInput", "", "placeholder", i18n_8, 3, "formControl"], ["mat-raised-button", "", "color", "primary", "type", "submit", 3, "disabled"], i18n_10, [3, "changed"], i18n_12, i18n_14, i18n_16];
     },
     template: function LoginComponent_Template(rf, ctx) {
       if (rf & 1) {
