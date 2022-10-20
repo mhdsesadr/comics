@@ -43,7 +43,9 @@ let AppRoutingModule = /*#__PURE__*/(() => {
     type: AppRoutingModule
   });
   AppRoutingModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule.forRoot(routes), _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule]
+    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule.forRoot(routes, {
+      useHash: true
+    }), _angular_router__WEBPACK_IMPORTED_MODULE_2__.RouterModule]
   });
   return AppRoutingModule;
 })();
@@ -583,7 +585,7 @@ let ComicsContainerComponent = /*#__PURE__*/(() => {
     },
     decls: 3,
     vars: 3,
-    consts: [[1, "grid", "md:grid-cols-6", "grid-cols-2", "gap-4"], [3, "comic", "isFavorite", "favoriteChanged", 4, "ngFor", "ngForOf"], [3, "comic", "isFavorite", "favoriteChanged"]],
+    consts: [[1, "grid", "md:grid-cols-6", "grid-cols-2", "gap-4", "!pb-11"], [3, "comic", "isFavorite", "favoriteChanged", 4, "ngFor", "ngForOf"], [3, "comic", "isFavorite", "favoriteChanged"]],
     template: function ComicsContainerComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0);
@@ -910,8 +912,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ProfilePreviewComponent": () => (/* binding */ ProfilePreviewComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 4650);
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/card */ 3546);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 6895);
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/icon */ 7392);
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material/card */ 3546);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 6895);
+
 
 
 
@@ -933,27 +937,27 @@ let ProfilePreviewComponent = /*#__PURE__*/(() => {
     inputs: {
       user$: "user$"
     },
-    decls: 5,
+    decls: 7,
     vars: 3,
-    consts: [[1, "!shadow-none", "!bg-transparent", "!flex", "items-center", "flex-col"], ["mat-card-avatar", "", 1, "example-header-image", "bg-cover", "!w-20", "!h-20", "!mt-10"], [1, "p-2"]],
+    consts: [[1, "!shadow-none", "!bg-transparent", "!flex", "items-center", "flex-col"], ["mat-card-avatar", "", 1, "example-header-image", "bg-cover", "!w-24", "!h-24", "!mt-10"], [1, "text-8xl", "!w-screen", "!h-24"], [1, "p-2"]],
     template: function ProfilePreviewComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](4, "async");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card", 0)(1, "div", 1)(2, "mat-icon", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "account_circle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](6, "async");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
       }
 
       if (rf & 2) {
         let tmp_0_0;
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"]((tmp_0_0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](4, 1, ctx.user$)) == null ? null : tmp_0_0.name);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"]((tmp_0_0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](6, 1, ctx.user$)) == null ? null : tmp_0_0.name);
       }
     },
-    dependencies: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__.MatCard, _angular_material_card__WEBPACK_IMPORTED_MODULE_1__.MatCardAvatar, _angular_common__WEBPACK_IMPORTED_MODULE_2__.AsyncPipe],
-    styles: [".example-header-image[_ngcontent-%COMP%] {\n  background-image: url(\"https://material.angular.io/assets/img/examples/shiba1.jpg\");\n}"]
+    dependencies: [_angular_material_icon__WEBPACK_IMPORTED_MODULE_1__.MatIcon, _angular_material_card__WEBPACK_IMPORTED_MODULE_2__.MatCard, _angular_material_card__WEBPACK_IMPORTED_MODULE_2__.MatCardAvatar, _angular_common__WEBPACK_IMPORTED_MODULE_3__.AsyncPipe]
   });
   return ProfilePreviewComponent;
 })();
