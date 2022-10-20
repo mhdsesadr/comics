@@ -611,8 +611,8 @@ video {
 .h-10 {
   height: 2.5rem;
 }
-.h-4\/5 {
-  height: 80%;
+.h-\[600px\] {
+  height: 600px;
 }
 .h-20 {
   height: 5rem;
