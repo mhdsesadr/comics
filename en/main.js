@@ -585,7 +585,7 @@ let ComicsContainerComponent = /*#__PURE__*/(() => {
     },
     decls: 3,
     vars: 3,
-    consts: [[1, "grid", "md:grid-cols-6", "grid-cols-2", "gap-4", "!pb-11"], [3, "comic", "isFavorite", "favoriteChanged", 4, "ngFor", "ngForOf"], [3, "comic", "isFavorite", "favoriteChanged"]],
+    consts: [[1, "grid", "lg:grid-cols-6", "md:grid-cols-5", "grid-cols-2", "gap-4", "!pb-11"], [3, "comic", "isFavorite", "favoriteChanged", 4, "ngFor", "ngForOf"], [3, "comic", "isFavorite", "favoriteChanged"]],
     template: function ComicsContainerComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0);
@@ -655,30 +655,29 @@ function NavbarComponent_mat_sidenav_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](2, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](3, "async");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](4, "async");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](5, "async");
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "div", 16)(7, "div", 17)(8, "div", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](9, "app-profile-preview", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](10, "mat-nav-list", 20)(11, "div")(12, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](13, 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "div", 16)(6, "div", 17)(7, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](8, "app-profile-preview", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](9, "mat-nav-list", 20)(10, "div")(11, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](12, 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](14, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](15, 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](13, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](14, 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](16, "div", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function NavbarComponent_mat_sidenav_1_Template_div_click_16_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](15, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function NavbarComponent_mat_sidenav_1_Template_div_click_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r4);
       const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵresetView"](ctx_r3.onLogout());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](17, "a", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](18, 26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](16, "a", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](17, 26);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()()()();
   }
 
   if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("opened", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](2, 7, ctx_r0.isScreenSmall) === false)("mode", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](3, 9, ctx_r0.isScreenSmall) ? "over" : "side")("fixedInViewport", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](4, 11, ctx_r0.isScreenSmall))("fixedTopGap", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](5, 13, ctx_r0.isExtraScreenSmall) ? 80 : 56);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("opened", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](2, 7, ctx_r0.isScreenSmall) === false)("mode", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](3, 9, ctx_r0.isScreenSmall) ? "over" : "side")("fixedInViewport", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipeBind1"](4, 11, ctx_r0.isScreenSmall))("fixedTopGap", 80);
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("user$", ctx_r0.user$);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", "/comics/list");
@@ -731,7 +730,6 @@ let NavbarComponent = /*#__PURE__*/(() => {
       this.store = store;
       this.themeChanged = new _angular_core__WEBPACK_IMPORTED_MODULE_4__.EventEmitter();
       this.user$ = this.store.select(_store_user_user_selectors__WEBPACK_IMPORTED_MODULE_0__.userQuery.selectUser);
-      this.isExtraScreenSmall = breakpoints.observe(`(max-width: ${EXTRA_SMALL_WIDTH_BREAKPOINT}px)`).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_5__.map)(breakpoint => breakpoint.matches));
       this.isScreenSmall = breakpoints.observe(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_5__.map)(breakpoint => breakpoint.matches));
     }
 
@@ -856,13 +854,13 @@ let NavbarComponent = /*#__PURE__*/(() => {
         i18n_12 = "Logout";
       }
 
-      return [[1, "flex-1", "box-border"], ["class", "overflow-auto", 3, "opened", "mode", "fixedInViewport", "fixedTopGap", 4, "ngIf"], [1, "flex", "flex-col", "min-h-full"], [1, "comics-primary-header", "flex", "content-center", "px-3", "md:p-4", "justify-between", "h-20", "fixed", "w-screen", "z-20"], ["mat-button", "", 1, "p-0", "w-16", "flex", "md:!hidden", 3, "click"], [1, "h-16", "text-white"], [1, "px-1", "py-6", "text-xl", "outline-0"], i18n_0, [3, "changed"], [1, "flex", "flex-row"], [1, "flex", "flex-1"], [1, "docs-component-viewer-nav", "fixed", "top-20"], ["class", "comics-component-viewer-nav-content h-[calc(100vh_-_5rem)]", 4, "ngIf"], [1, "pt-24", "pb-4", "px-2", "navbar-content-container", "h-screen"], [1, "overflow-auto", 3, "opened", "mode", "fixedInViewport", "fixedTopGap"], ["sidenav", ""], [1, "sticky", "top-0", "md:!h-screen"], [1, "docs-component-viewer-nav", "w-52", "overflow-auto"], [1, "comics-component-viewer-nav-content"], [3, "user$"], [1, "!flex", "flex-col", "justify-between", "h-[600px]"], ["mat-list-item", "", "routerLinkActive", "comics-component-viewer-sidenav-item-selected", 3, "routerLink"], i18n_2, i18n_4, [3, "click"], ["mat-list-item", "", "routerLinkActive", "comics-component-viewer-sidenav-item-selected"], i18n_6, [1, "comics-component-viewer-nav-content", "h-[calc(100vh_-_5rem)]"], [1, "w-56", "!flex", "flex-col", "justify-between", "h-3/4"], i18n_8, i18n_10, i18n_12];
+      return [[1, "flex-1", "box-border"], ["class", "overflow-auto", 3, "opened", "mode", "fixedInViewport", "fixedTopGap", 4, "ngIf"], [1, "flex", "flex-col", "min-h-full"], [1, "comics-primary-header", "flex", "content-center", "px-3", "md:p-4", "justify-between", "h-20", "fixed", "w-screen", "z-20"], ["mat-button", "", 1, "p-0", "w-16", "flex", "lg:!hidden", 3, "click"], [1, "h-16", "text-white"], [1, "px-1", "py-6", "text-xl", "outline-0"], i18n_0, [3, "changed"], [1, "flex", "flex-row"], [1, "flex", "flex-1"], [1, "docs-component-viewer-nav", "fixed", "top-20"], ["class", "comics-component-viewer-nav-content h-[calc(100vh_-_5rem)]", 4, "ngIf"], [1, "pt-24", "pb-4", "px-2", "navbar-content-container", "h-screen"], [1, "overflow-auto", 3, "opened", "mode", "fixedInViewport", "fixedTopGap"], ["sidenav", ""], [1, "sticky", "top-0"], [1, "docs-component-viewer-nav", "w-52", "overflow-auto"], [1, "comics-component-viewer-nav-content"], [3, "user$"], [1, "!flex", "flex-col", "justify-between", "h-4/5"], ["mat-list-item", "", "routerLinkActive", "comics-component-viewer-sidenav-item-selected", 3, "routerLink"], i18n_2, i18n_4, [3, "click"], ["mat-list-item", "", "routerLinkActive", "comics-component-viewer-sidenav-item-selected"], i18n_6, [1, "comics-component-viewer-nav-content", "h-[calc(100vh_-_5rem)]"], [1, "w-56", "!flex", "flex-col", "justify-between", "h-3/4"], i18n_8, i18n_10, i18n_12];
     },
     template: function NavbarComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵprojectionDef"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "mat-sidenav-container", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, NavbarComponent_mat_sidenav_1_Template, 19, 15, "mat-sidenav", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, NavbarComponent_mat_sidenav_1_Template, 18, 13, "mat-sidenav", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](2, "async");
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "div", 2)(4, "header", 3)(5, "button", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function NavbarComponent_Template_button_click_5_listener() {
@@ -896,7 +894,7 @@ let NavbarComponent = /*#__PURE__*/(() => {
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterLinkWithHref, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterLinkActive, _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_9__.MatSidenav, _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_9__.MatSidenavContainer, _angular_material_icon__WEBPACK_IMPORTED_MODULE_11__.MatIcon, _angular_material_button__WEBPACK_IMPORTED_MODULE_12__.MatButton, _angular_material_list__WEBPACK_IMPORTED_MODULE_13__.MatNavList, _angular_material_list__WEBPACK_IMPORTED_MODULE_13__.MatListItem, _shared_theme_switcher_theme_switcher_component__WEBPACK_IMPORTED_MODULE_2__.ThemeSwitcherComponent, _profile_preview_profile_preview_component__WEBPACK_IMPORTED_MODULE_3__.ProfilePreviewComponent, _angular_common__WEBPACK_IMPORTED_MODULE_10__.AsyncPipe],
-    styles: ["@media (min-width: 768px) {\n    [dir=ltr][_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%], [dir=ltr]   [_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%] {\n        padding-left: 15rem;\n        padding-right: 1rem\n    }\n    [dir=rtl][_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%], [dir=rtl]   [_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%] {\n        padding-right: 15rem;\n        padding-left: 1rem\n    }\n}"]
+    styles: ["@media (min-width: 1024px) {\n    [dir=ltr][_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%], [dir=ltr]   [_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%] {\n        padding-left: 15rem;\n        padding-right: 1rem\n    }\n    [dir=rtl][_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%], [dir=rtl]   [_nghost-%COMP%]   .navbar-content-container[_ngcontent-%COMP%] {\n        padding-right: 15rem;\n        padding-left: 1rem\n    }\n}"]
   });
   return NavbarComponent;
 })();

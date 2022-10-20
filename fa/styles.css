@@ -611,8 +611,8 @@ video {
 .h-10 {
   height: 2.5rem;
 }
-.h-\[600px\] {
-  height: 600px;
+.h-4\/5 {
+  height: 80%;
 }
 .h-20 {
   height: 5rem;
@@ -5085,23 +5085,25 @@ body {
 }
 @media (min-width: 768px) {
 
-  .md\:\!hidden {
-    display: none !important;
-  }
-
   .md\:h-\[540px\] {
     height: 540px;
   }
 
-  .md\:\!h-screen {
-    height: 100vh !important;
-  }
-
-  .md\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .md\:p-4 {
     padding: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:\!hidden {
+    display: none !important;
+  }
+
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
