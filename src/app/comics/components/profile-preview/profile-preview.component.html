@@ -1,4 +1,6 @@
 <mat-card class="!shadow-none !bg-transparent !flex  items-center flex-col ">
-  <div mat-card-avatar class="example-header-image bg-cover !w-20 !h-20 !mt-10"></div>
+  <div mat-card-avatar class=" bg-cover  !h-24 !mt-10 !w-24">
+    <mat-icon class="text-8xl !w-24 !h-24 ">account_circle</mat-icon>
+  </div>
   <p class="p-2">{{(user$ | async)?.name}}</p>
 </mat-card>

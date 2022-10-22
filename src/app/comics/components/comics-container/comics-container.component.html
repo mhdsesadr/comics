@@ -1,4 +1,4 @@
-<div class="grid md:grid-cols-6 grid-cols-2 gap-4">
+<div class="grid lg:grid-cols-6 md:grid-cols-5 grid-cols-2 gap-4 !pb-11">
   <app-comic *ngFor="let comic of (comics$ | async)" [comic]="comic" [isFavorite]="(isComicFavorite(comic.id) | async)"
              (favoriteChanged)="onFavoriteComic(comic, $event)"></app-comic>
 </div>

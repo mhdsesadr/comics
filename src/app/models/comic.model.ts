@@ -7,5 +7,3 @@ export interface ComicModel {
     extension: string;
   }
 }
-
-

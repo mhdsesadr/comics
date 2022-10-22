@@ -1,6 +1,5 @@
 import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 import {ComicModel} from "../../../models/comic.model";
-import {BehaviorSubject, Observable, of} from "rxjs";
 
 
 @Component({

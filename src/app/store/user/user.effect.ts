@@ -1,12 +1,12 @@
 import {Injectable} from "@angular/core";
 import {userActions} from "./user.action";
 import {Actions, ofType, createEffect,} from '@ngrx/effects';
-import {mergeMap, of, switchMap, take,} from 'rxjs';
+import {mergeMap, of} from 'rxjs';
 import {catchError, map, tap} from 'rxjs/operators';
 import {UserService} from "../../services/user/user.service";
 import {Router} from "@angular/router";
 import {LocalStorageService} from "../../services/local-storage/local-storage.service";
-import {comicsAction} from "../comics/comics.action";
+
 
 
 @Injectable()
@@ -54,6 +54,7 @@ export class UserEffects {
     this.actions$.pipe(
       ofType(userActions.logout),
       tap(() => this.localStorageService.deleteUser().subscribe({
+        // ????????????????????????????????????????????/
         complete: () => this.localStorageService.deleteAllFavoriteComics().subscribe({
           complete: () => this.router.navigate(['/auth/login'])
         })
@@ -65,7 +66,7 @@ export class UserEffects {
   loadUser$ = createEffect(() =>
     this.actions$.pipe(
       ofType(userActions.loadUser),
-      mergeMap((action) =>
+      mergeMap(() =>
         this.localStorageService.getUser().pipe(
           map(user => userActions.loadUserSuccess({user})),
           catchError((error: string) => of(userActions.loadUserFailure({error})))
